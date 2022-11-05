@@ -273,13 +273,14 @@ function finity.new(isdark, gprojectName, thinProject)
 	if projectName then
 		self2.tip.Text = projectName
 	else
-		self2.tip.Text = "Gravez Private | Press '".. string.sub(tostring(self.ToggleKey), 14) .."' to hide this menu"
+		self2.tip.Text = "Gravez Private | Press Home To Open"
 	end
     
     function finity.settitle(text)
         self2.tip.Text = tostring(text)
     end
 
+	
 	local separator = self:Create("Frame", {
 		Name = "Separator",
 		BackgroundColor3 = theme.separator_color,
