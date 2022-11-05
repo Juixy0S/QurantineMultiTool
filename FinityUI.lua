@@ -142,7 +142,7 @@ function finity.new(isdark, gprojectName, thinProject)
 	local finityData
 	finityData = {
 		UpConnection = nil,
-		ToggleKey = Enum.KeyCode.Home,
+		ToggleKey = Enum.KeyCode.QuotedDouble,
 	}
 
 	self2.ChangeToggleKey = function(NewKey)
